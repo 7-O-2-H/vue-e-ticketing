@@ -1,0 +1,34 @@
+/* reset.css */
+
+/* Remove default margin, padding, border */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset form elements */
+input, button, select, textarea {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Normalize images */
+img {
+  max-width: 100%;
+  display: block;
+}

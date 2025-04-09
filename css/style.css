@@ -40,7 +40,7 @@ form {
 }
 
 /* Form Fields */
-.form-field {
+.form-field, fieldset {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -76,4 +76,8 @@ button.reset {
 /* Other Tweaks */
 .agreement p {
   margin-bottom: 1rem;
+}
+
+.legend {
+  font-family: bold;
 }

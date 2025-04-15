@@ -9,5 +9,15 @@ const app = new Vue({
     referrals: [],
     specialRequests: '',
     purchaseAgreementSigned: false
+  },
+  computed: {
+    fullName: function() {
+      if (this.firstName && this.lastName)
+      {
+        return this.firstName + this.lastName,
+      } else {
+        return this.firstName || this.lastName
+      }
+    }
   }
  });

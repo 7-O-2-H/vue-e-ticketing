@@ -79,7 +79,7 @@
         <div class="form-row vertical agreement checkbox">
           <fieldset>
             <legend>PURCHASE AGREEMENT</legend>
-            <p>I, First Last, wish to buy Quantity Type tickets. I understand that all ticket sales are final.</p>
+            <p>I, {{ firstName }} {{ lastName }}, wish to buy {{ ticketQuantity }} {{ ticketType }} tickets. I understand that all ticket sales are final.</p>
             <input type="checkbox" name="agreement" id="agree">
             <label for="agree">I Agree</label>
           </fieldset>

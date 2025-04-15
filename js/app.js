@@ -14,9 +14,9 @@ const app = new Vue({
     fullName: function() {
       if (this.firstName && this.lastName)
       {
-        return this.firstName + this.lastName,
+        return this.firstName + this.lastName;
       } else {
-        return this.firstName || this.lastName
+        return this.firstName || this.lastName;
       }
     }
   }

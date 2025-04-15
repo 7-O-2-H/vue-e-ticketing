@@ -13,12 +13,14 @@ const app = new Vue({
   computed: {
 
     // fullName func - returns formatted name
-    fullName: function() {
-      if (this.firstName && this.lastName)
-      {
-        return this.firstName + ' ' + this.lastName;
-      } else {
-        return this.firstName || this.lastName;
+    fullName: {
+      get: function() {
+        if (this.firstName && this.lastName)
+        {
+          return this.firstName + ' ' + this.lastName;
+        } else {
+          return this.firstName || this.lastName;
+        }
       }
     },
 

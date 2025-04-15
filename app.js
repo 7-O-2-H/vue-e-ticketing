@@ -1,1 +1,1 @@
-const app = new VTTCue({});
+const app = new Vue({});

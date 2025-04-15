@@ -11,22 +11,16 @@ const app = new Vue({
     purchaseAgreementSigned: false
   },
   computed: {
-
     // fullName func - returns formatted name
     fullName: {
-      
       get: function() {
-
         if (this.firstName && this.lastName)
-
         {
           return this.firstName + ' ' + this.lastName;
-
         } else {
           return this.firstName || this.lastName;
         }
       },
-
       set: function(newFullName) {
         const names = newFullName.split(' ');
 

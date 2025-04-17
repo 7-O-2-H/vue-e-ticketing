@@ -11,6 +11,7 @@ const app = new Vue({
     purchaseAgreementSigned: false
   },
   computed: {
+    
     // fullName func - returns formatted name
     fullName: {
       get: function() {
